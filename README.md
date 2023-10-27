@@ -1,31 +1,42 @@
 # Chinese-Text-Classification
-medical text classification
+Chinese Text Classification With MacBERT， with simply 5 files
 
-A Model Ensemble Approach With LLM for Chinese Text Classification
+## 简介
 
-![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/23d8917c-8112-44a9-b353-37aa6fd55268)
+本项目基于pytorch，利用MacBERT实现的中文文本分类，仅包含5个主要代码文件
 
-# data format
-{
-    "id": "id_0",
-    "conversations": [
-      {
-        "from": "user",
-        "value": "糖尿病人可不可以服用伟哥? 请对上述的句子划分类别，从下面提供的类别中选出一个正确的选项：A.诊断 B.治疗 C.医疗常识 D.健康生活方式 E.流行病学 F.其他"
-      },
-      {
-        "from": "assistant",
-        "value": "B.治疗"
-      }
-    ]
-  }
+本项目使用的数据集为csv格式的医疗诊断数据集，accuracy为top-k评价指标
 
-# label transfer
+项目的目录如下：
 
-<img width="266" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/052cb2df-8850-4eab-ac46-aa899253182d">
+├─pretrained
+		
+├─project_data
 
-# Run
-1.run data process.py
-2.run sh lora.sh and train.py
-3.run batch.py
-4.run data postprocess.py
+├─result
+
+│  ├─logs
+
+│  │  └─medical-01
+
+│  └─models
+
+│      └─medical-01
+
+
+
+其中`pretrained`部分需要自己下载，`logs`、`models`会自行生成
+
+## 使用
+
+部分数据，包括预训练模型，可以从[hugging_face](https://huggingface.co/hfl/chinese-macbert-base/tree/main) 下载，下载所有`json`文件、`vocab.txt`文件、与你需要的预训练模型参数文件（本文中即`pytorch_model.bin`）放在同一个目录（本项目为pretrained)
+
+使用前可以先运行`dataset.py`（稍微调整main的部分）生成并保存分词后的数据
+
+运行`train.py`开始训练
+
+运行`test.py`进行测试
+
+
+
+调整一些参数统一在`train.py`里的Config里面修改

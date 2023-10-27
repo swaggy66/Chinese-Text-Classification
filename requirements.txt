@@ -1,6 +1,6 @@
-transformers==4.32.0
-accelerate
-tiktoken
-einops
-transformers_stream_generator==0.0.4
-scipy
+jieba>=0.42.1
+matplotlib>=3.5.1
+numpy>=1.21.5
+torch>=1.10.2
+tqdm>=4.63.0
+transformers>=4.23.1
