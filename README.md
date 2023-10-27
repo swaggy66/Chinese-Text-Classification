@@ -39,3 +39,9 @@ Qlora ，lora，FGM adversarial train
 3.run batch.py
 
 4.run data_postprocess.py
+
+# rank
+
+<img width="1186" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/cde1dad6-b85d-437b-809e-3362d8850745">
+
+
