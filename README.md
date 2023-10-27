@@ -1,4 +1,3 @@
-![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/256d31f4-03b9-43a2-8ec8-c295d8de954b)![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/3726db27-b55b-441b-817e-432ffead7c61)![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/f96a0658-2cd4-4440-890b-2f2e3f74834d)![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/0c88f504-3b7a-4dea-99d4-2616a4abe258)![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/996aea44-8185-4ac9-8f8d-83887f48669b)# Chinese-Text-Classification
 medical text classification
 
 # A Model Ensemble Approach With LLM for Chinese Text Classification
@@ -34,6 +33,9 @@ Qlora ，lora，FGM adversarial train
 
 # Run
 1.run data_process.py
+
 2.run sh lora.sh or train.py
+
 3.run batch.py
+
 4.run data_postprocess.py
