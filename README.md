@@ -2,7 +2,8 @@ medical text classification
 
 # A Model Ensemble Approach With LLM for Chinese Text Classification
 
-![image](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/b6504dff-11d3-4d03-b87c-549bc1fcb2b2)
+![总模型图初稿](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/5d879b4f-9360-4558-93f6-1f9caa9fa333)
+
 
 # Model Selection
 
