@@ -1,8 +1,13 @@
-medical text classification
+# Topic：Medical Text Classification
 
-# A Model Ensemble Approach With LLM for Chinese Text Classification
+contest and data link：https://tianchi.aliyun.com/competition/entrance/532153?spm=a2c22.12281957.0.0.4c885d9bzbNNxD
 
-![chip会议汇报1027](https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/80f5683c-f4ff-4310-b652-88e6cbe61c09)
+# Title：《A Model Ensemble Approach With LLM for Chinese Text Classification》
+
+# Architecture
+
+<img width="879" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/40abb620-fd53-4140-a1c4-82aad6c73f4c">
+
 
 
 
