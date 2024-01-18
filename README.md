@@ -1,10 +1,10 @@
-# Topic：Medical Text Classification
+# 1.Topic：Medical Text Classification
 
 contest and data link：https://tianchi.aliyun.com/competition/entrance/532153?spm=a2c22.12281957.0.0.4c885d9bzbNNxD
 
-# Title：《A Model Ensemble Approach With LLM for Chinese Text Classification》
+# 2.Title：《A Model Ensemble Approach With LLM for Chinese Text Classification》
 
-# Architecture
+# 3.Architecture
 
 <img width="879" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/40abb620-fd53-4140-a1c4-82aad6c73f4c">
 
@@ -13,15 +13,15 @@ contest and data link：https://tianchi.aliyun.com/competition/entrance/532153?s
 
 
 
-# Model Selection
+# 4.Model Selection
 
 Qwen-7b-Chat，ChatGLM2-6b，Macbert
 
-# Train methods
+# 5.Train methods
 
 Qlora ，lora，FGM adversarial train
 
-# data format
+# 6.data format
 
 {
     "id": "id_0",
@@ -36,11 +36,11 @@ Qlora ，lora，FGM adversarial train
       }
     ]
   }
-# label transfer
+# 7.label transfer
 
 <img width="266" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/9abc3923-a355-4d74-9cf5-f15c836613d8">
 
-# Run
+# 8.Run
 1.run data_process.py
 
 2.run sh lora.sh or train.py
@@ -49,8 +49,12 @@ Qlora ，lora，FGM adversarial train
 
 4.run data_postprocess.py
 
-# rank（top2）
+# 9.rank（top2）
 
 <img width="1186" alt="image" src="https://github.com/swaggy66/Chinese-Text-Classification/assets/91064816/cde1dad6-b85d-437b-809e-3362d8850745">
 
+# 10.Citation
+<div style="background-color: #f2f2f2; padding: 20px; border-radius: 5px;">
+    <p>{email：18819893186wcy@gmail.com}</p>
+</div>
 
