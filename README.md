@@ -3,6 +3,8 @@
 contest and data link：https://tianchi.aliyun.com/competition/entrance/532153?spm=a2c22.12281957.0.0.4c885d9bzbNNxD
 
 # 2.Paper Title：《A Model Ensemble Approach With LLM for Chinese Text Classification》
+    Link：https://doi.org/10.1007/978-981-97-1717-0_20（Chinese text classification）
+          https://doi.org/10.1007/978-981-97-1717-0_12
 
 # 3.Architecture
 
